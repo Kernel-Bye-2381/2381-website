@@ -1,0 +1,254 @@
+    #splash .texture, #splash .rightBG1, #splash .leftBG1{
+        height:56vw;
+    }
+    #splash {
+        height:56vw;
+    }
+    .largeTitle {
+        margin-left:16vw;
+        padding-top:4vw;
+        width:29vw;
+    }
+    .largeTitle h1 {
+        font-size: 4.4vw;
+        margin-bottom:0;
+    }
+    .largeTitle p, .largeTitle li {
+        font-size:1.5vw;
+    }
+    .largeTitle a {
+        font-size:1.5vw;
+    }
+    .formContainer {
+        margin-right:12.8vw;
+        margin-top:4.4vw;
+    }
+    
+    #contactForm {
+        width:29.3vw;
+        height:30.7vw;
+        border-radius:1.1vw;
+        line-height:0.9vw;
+    }
+    
+    #contactForm label {
+        font-size:1.2vw;
+        margin-left:3.6vw;
+        padding-top:2.2vw;
+    }
+    
+    #contactForm input {
+        width:21.9vw;
+        font-size:1.1vw;
+    }
+    #contactForm textarea {
+        width:21.9vw;
+        height:8.1vw;
+        font-size:1.1vw;
+        border-radius:0.3vw;
+    }
+    
+    #submitForm {
+        padding:0.6vw;
+        width:18.3vw;
+        font-size:1.3vw;
+        margin-top:5vw;
+        border-radius:0.7vw;
+    }
+    .submissionText {
+        font-size:3.7vw;
+        padding:2.9vw;
+        line-height:3.7vw;    
+    }
+    #postSubmission p {
+          padding:1.5vw;
+          font-size:1.5vw;
+      }
+    
+      #vexInfoSection {
+        height: 36.7vw;
+    }
+    #vexInfoSection .texture {
+        height:36.7vw;
+    }
+    
+    .googleMaps {
+        width:73.2vw;
+        height:25.7vw;
+        border-radius:0.7vw;
+        margin-top:3.7vw;
+    }
+}
+.postSubmission h1 {
+    padding:1.5vw;
+    font-size:1.83vw;
+    line-height:2.2vw;
+}
+
+.postSubmission p{
+  padding-left:1.5vw;
+  padding-right:1.5vw;
+  font-size:1.5vw;
+}
+
+.postSubmission a{
+  padding-left:1.5vw;
+  padding-right:1.5vw;
+  font-size:1.1vw;
+}
+
+@media only screen and (max-width:1024px) {
+    #splash , #splash .texture, #splash .rightBG1{
+        height:60vw !important;
+    }
+    .largeTitle {
+        margin-left:50%;
+        width:40vw;
+        transform: translateX(-50%);
+        padding-top:4vw;
+        text-align: center;
+    }
+    .largeTitle h1 {
+        font-size: 3.5vw;
+    }
+    .largeTitle p {
+        font-size:1.5vw;
+    }
+    .largeTitle li {
+        font-size:1.5vw;
+        list-style: none;
+        margin:0;
+        padding:0;
+        margin-left:-4vw;
+    }
+    .largeTitle a {
+        font-size:1.5vw;
+    }
+    .formContainer {
+        width:50vw;
+        margin-right: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-left:-25vw; */
+        /* margin-left:50%; */
+    }
+    
+    #contactForm {
+        width:35.0vw;
+        height:42vw;
+    }
+    
+    #contactForm label {
+        font-size:1.7vw;
+        margin-left:2.5vw;
+    }
+   
+    .textInput {
+        width:30vw !important;
+    }
+
+    #contactForm textarea {
+        width:30.0vw;
+        height:11.0vw;
+    }
+
+      #vexInfoSection {
+        height: 50vw;
+        }
+    #vexInfoSection .texture,#vexInfoSection .rightbg2, #vexInfoSection .leftbg2  {
+        height:50vw;
+    }
+
+    .googleMaps {
+        margin-top:5vw;
+        width:65vw;
+        height:35vw;
+    }
+    .postSubmission h1 {
+        padding:2vw;
+        font-size:2.1vw;
+        line-height:3vw;
+    }
+    
+    .postSubmission p{
+      padding-left:2vw;
+      padding-right:2vw;
+      font-size:1.6vw;
+    }
+    
+    .postSubmission a{
+      padding-left:2vw;
+      padding-right:2vw;
+      font-size:1.3vw;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #splash , #splash .texture, #splash .rightBG1{
+        height:150vw !important;
+    }
+    .largeTitle {
+        width:50vw;
+        margin-left: 25%;
+        position: relative;
+    }
+    .largeTitle ul {
+        list-style-position: inside;
+    list-style-type:none;
+    padding-left: 0;
+    text-align:center;
+    }
+    .largeTitle li {
+    margin-left:0 !important; 
+    }
+    .largeTitle h1 {
+        font-size: 8vw !important;
+    }
+    .largeTitle p {
+        font-size:3vw !important;
+    }
+    .largeTitle li {
+        font-size:3vw;
+    }
+    .largeTitle a {
+        font-size:3vw;
+    }
+    .formContainer {
+        margin:0;
+        margin-top:10%;
+        width: 100%;
+        
+    }
+    #contactForm {
+        width:40vw;
+        height:60vw;
+        padding:2vw;
+    }
+    
+    #contactForm label {
+        font-size:2.5vw;
+        margin-left:3vw;
+        margin-top:2vw;
+    }
+   
+    .textInput {
+        width:35vw !important;
+        border-bottom:0.5vw solid rgb(249, 211, 139) !important;
+    }
+
+    #contactForm textarea {
+        width:35vw;
+        height:13vw;
+        border: 0.5vw solid rgb(249, 211, 139) !important;
+        margin-top:2vw;
+    }
+    
+#submitForm {
+    padding:1vw;
+    width:25vw;
+    font-size:2.3vw !important;
+    margin-top:5vw !important;
+    border-radius:2vw;
+}
+}

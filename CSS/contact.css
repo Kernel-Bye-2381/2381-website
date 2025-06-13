@@ -1,0 +1,153 @@
+#splash {
+    height:48vw !important;
+}
+#splash .texture, #splash .rightBG1, #splash .leftBG1{
+    height:48vw !important;
+}
+
+.largeTitle {
+    position:absolute;
+    margin-left:200px;
+    padding-top:0;
+    width:400px;
+}
+.largeTitle h1 {
+    font-size: 6vw !important;
+    color: rgb(249, 211, 139);
+    z-index: 200;
+    font-family: "neutra";
+    margin-bottom:0;
+}
+.largeTitle p, .largeTitle li{
+    font-size:20px;
+    text-decoration:italic;
+    color: rgb(249, 211, 139);
+    z-index: 200;
+    font-family: "neutra";
+}
+
+.largeTitle a {
+    font-size:20px;
+    color: rgb(249, 211, 139);
+    font-family: "neutra";
+
+}
+.formContainer {
+    position:relative;
+    float:right;
+    margin-right:175px;
+    margin-top:60px;
+}
+
+#contactForm {
+    width:400px;
+    height:420px;
+    background-color:rgb(170, 7, 35);
+    border-radius:15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    line-height:12px;
+    transition:0.6s ease-in-out;
+}
+
+#contactForm label {
+    display:block;
+    color: rgb(249, 211, 139);
+    font-size:17px;
+    margin-left:50px;
+    padding-top:30px;
+    font-family:"neutra";
+}
+#submitForm:hover{
+    cursor:pointer;
+}
+#contactForm .textInput {
+    background:none;
+    border:none;
+    width:22vw;
+    border-bottom:2px solid rgb(249, 211, 139);
+    color:rgb(249, 211, 139);
+    font-size:16px;
+    font-family:"neutra";
+}
+#contactForm textarea {
+    background:none;
+    width:22vw;
+    height:110px;
+    border:none;
+    border:2px solid rgb(249, 211, 139);
+    color:rgb(249, 211, 139);
+    font-size:15px;
+    border-radius:2px;
+    font-family:"neutra";
+    scrollbar-width: none;  
+    resize:none;
+}
+
+#submitForm {
+    background-color:rgb(249, 211, 139);
+    padding:8px;
+    width:250px;
+    font-size:18px;
+    margin-top:5vw;
+    font-weight:bold;
+    color:rgb(170, 7, 35);
+    border:none;
+    border-radius:10px;
+    font-family:"neutra";
+    transition:0.3s ease-in-out;
+    
+}
+#submitForm:hover {
+    cursor:pointer;
+}
+
+textarea::-webkit-scrollbar { 
+    display: none;  
+}
+button:focus, input:focus, textarea:focus {
+    outline:0;
+}
+
+.postSubmission h1 {
+      color:rgb(249, 211, 139);
+      padding:20px;
+      padding-bottom:0;
+      font-size:25px;
+      line-height:30px;
+      z-index:300;
+  }
+
+  .postSubmission p{
+    color:rgb(249, 211, 139);
+    padding-left:20px;
+    padding-right:20px;
+    font-size:20px;
+    z-index:300;
+    font-family:'neutra';
+}
+ 
+.postSubmission a{
+    color:rgb(249, 211, 139);
+    padding-left:20px;
+    padding-right:20px;
+    font-size:15px;
+    z-index:300;
+    font-family:'neutra';
+}
+#vexInfoSection {
+    width: 100%;
+    height: 500px;
+}
+#vexInfoSection .rightBG2, #vexInfoSection .leftBG2{
+    height:500px;
+}
+#vexInfoSection .texture {
+    height:600px;
+}
+
+.googleMaps {
+    width:1000px;
+    height:350px;
+    position:relative;
+    border-radius:10px;
+}

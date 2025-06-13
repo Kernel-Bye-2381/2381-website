@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+</head>
+
+<title>CALVIN</title>
+<style>
+
+/* The device with borders */
+.smartphone {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 360px;
+  height: 640px;
+  background: white;
+}
+
+div.container {
+background-color: #ffffff;
+margin: 0 auto;
+}
+
+div.containers p {
+    margin: 0 auto;
+text-align: center;
+font-family: Helvetica;
+font-size: 60px;
+font-style: normal;
+font-weight: normal;
+text-decoration: none;
+text-transform: none;
+font-variant: small-caps;
+color: #232942;
+background-color: #ffffff;
+border: 2px;
+border-style: solid;
+border-color: #ffffff;
+}
+    div.container p {
+        margin: 0 auto;
+text-align: center;
+font-family: Helvetica;
+font-size: 26px;
+font-style: italic;
+font-weight: normal;
+text-decoration: none;
+text-transform: none;
+font-variant: small-caps;
+color: #000000;
+background-color: #ffffff;
+}
+
+.center {
+    text-align: center;
+    }
+
+</style>
+
+<div class="containers" style ="background-color:#232942;color:white; max-width:400px; margin:auto;padding: 15px">
+<p>CALVIN</p>
+</div>
+
+<br>
+
+<div class="container">
+    <p><u>Text me 'START' to begin!</u></p>
+</div>
+
+<br>
+
+<div class="smartphone">
+    <div class="content">
+<div class="phoneScreen">
+  <iframe src='https://webchat.botframework.com/embed/calvin-rg-bot?s=mUrf-ias0Hc.-nOOfAppD1eK3Y7gWAIx_cZ22WLWjqE7mUdCCbJi3QM' style="width:100%; border:none; height:635px"></iframe>
+</div>
+</div>
+</div>
+
+<br><br>
+	<center>
+	<table style="border:0px">
+		<tr>
+			<td style="border-top-width: 1px" width = "400px"> 
+				<center><hr></center>
+				<h4 class="center">If the chat box and text do not automatically resize and are too small on your mobile device, try zooming in. This setting can be found in one of the corners of your screen ('aA' symbol on upper left in Safari, '...' symbol in bottom left in Chrome). </h4> </td>
+		</tr>
+		<tr>
+			<td width="400px"> <p class="center"> <br> <br>Created by Raymond Wang, Sam Lu, Joyce Liu, Alice Yang. <br><br> © 2021 Raymond Wang</p>
+			</td>
+		</tr>
+	</table>
+		</center>
+
+</html>

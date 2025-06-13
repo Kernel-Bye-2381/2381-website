@@ -1,0 +1,113 @@
+
+    
+.largeTitle {
+    margin-left:11vw;
+    padding-top:3.75vw;
+    width:29.28vw;
+}
+.largeTitle h1 {
+    font-size: 4.4vw;
+    margin-bottom:0;
+}
+.largeTitle p {
+    font-size:1.5vw;
+}
+.linksContainer {
+    margin-top:7.3vw;
+    width:36.6vw;
+    margin-left: 56.7vw;
+}
+.linksContainer td {
+    padding:1.5vw;
+}
+.linksContainer h1 {
+    font-size:1.8vw;
+}
+.linksContainer a {
+    font-size:1.5vw;
+}
+
+@media only screen and (max-width:1024px) {
+    #splash, #splash .texture, #splash .leftBG1, #splash .rightBG1 {
+        height:140vw;
+    }
+        .largeTitle {
+            margin-left:11vw;
+            padding-top:6vw;
+            width:28vw;
+        }
+        .largeTitle h1 {
+            font-size:5vw;
+        }
+        .largeTitle p {
+            font-size:2.5vw;
+        }
+        .linksContainer {
+            width:40vw;
+            margin-top:6vw;
+            margin-left: 55vw;
+        }
+        .linksContainer td {
+            text-align: center;
+            padding:2vw;
+            width:20vw;
+        }
+        .linksContainer h1 {
+            font-size:3vw;
+        }
+        .linksContainer a {
+            font-size:2vw;
+        }
+        #aboutContainer {
+            background-color: #AA0723;
+            overflow-x:hidden;
+            width: 100%;
+            height: 50vw;
+            margin-top:30vw;
+        }
+        
+        #aboutContainer .texture,#aboutContainer .rightbg2, #aboutContainer .leftbg2  {
+            height:50vw;
+        }
+        
+        #infoSlideshow {
+            margin-top:0;
+            padding-top:0;
+            height:42vw;
+            width:70vw;
+            position:absolute;
+        }
+}
+
+@media only screen and (max-width:767px) {
+    #splash, #splash .texture, #splash .leftBG1, #splash .rightBG1 {
+        height:190vw;
+    }
+    #aboutContainer{
+        margin-top:70vw;
+        height:60vw;
+    }
+    #aboutContainer .texture, #aboutContainer .leftBG2, #aboutContainer .rightBG2 {
+        height:60vw;
+    }
+    #infoSlideshow {
+        height:48vw;
+    }
+    .linksContainer {
+        width:40vw;
+        margin-left: 30%;
+    }
+    .largeTitle {
+        position: relative;
+        margin-left:25%;
+        text-align: center;
+        width:50vw;
+    }
+    .largeTitle h1 {
+        font-size:8vw !important;
+    }
+    .largeTitle p {
+        font-size:3vw;
+    }
+    
+}
